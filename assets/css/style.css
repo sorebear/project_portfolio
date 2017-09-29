@@ -249,7 +249,7 @@ h1, h2, h3, h4, h5, h6 {
    ========================================================================== */
 
 #headerwrap {
-	background: url(../img/back.jpg) no-repeat center top;
+	background: url(../img/waterfall.jpg) no-repeat center top;
 	margin-top: 0px;
 	padding-top:120px;
 	text-align:center;
@@ -278,6 +278,11 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: bold;
 	text-shadow: 2px 2px 2px #000;
 }
+
+/* #headerwrap h3 {
+	color:#ffffff;
+	text-shadow: 0px 1px 1px #000;
+} */
 
 /* About Wrap & Conf */
 #aboutwrap {
@@ -370,7 +375,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .portfolio {
-	background-image: url(../img/portfolio-sep.jpg);
+	background-image: url(../img/shadow-tree.jpg);
 }
 
 /* Service Wrap */
@@ -437,7 +442,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .contact {
-	background-image: url(../img/contact-sep.jpg);
+	background-image: url(../img/mailbox.jpg);
 }
 
 #contactwrap label {
