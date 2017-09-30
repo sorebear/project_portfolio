@@ -471,8 +471,11 @@ h1, h2, h3, h4, h5, h6 {
   -webkit-transition: opacity 0.4s;
   -moz-transition: opacity 0.4s;
   -o-transition: opacity 0.4s;
-  transition: opacity 0.4s;
-  
+  transition: opacity 0.4s; 
+}
+
+.img-responsive {
+	margin: auto;
 }
 
 .project:hover .photo-wrapper {

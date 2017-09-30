@@ -6,6 +6,10 @@
 				$('body').toggleClass('body-push-toleft');
 				$('#theMenu').toggleClass('menu-open');
 			});
-
+			$('form').on('submit', function(event) {
+				debugger;
+				event.preventDefault();
+				$('.form-control').val('');
+			})
 
 })(jQuery)
