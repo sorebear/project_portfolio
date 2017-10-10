@@ -336,6 +336,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .profile-pic {
 	margin: auto;
+	max-width: 360px;
 }
 .about {
 	background-image: url(../img/typewriter.jpg);
