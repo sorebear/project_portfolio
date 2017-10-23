@@ -251,7 +251,7 @@ h1, h2, h3, h4, h5, h6 {
    ========================================================================== */
 
 #headerwrap {
-	background: url(../img/waterfall.jpg) no-repeat center top;
+	background: url(../img/forestvalley.jpg) no-repeat center top;
 	margin-top: 0px;
 	padding-top:120px;
 	text-align:center;
@@ -302,6 +302,17 @@ h1, h2, h3, h4, h5, h6 {
 	letter-spacing: 2px;
 }
 
+.name a {
+	font-size: 24px;
+	margin: 5px;
+	color: grey;
+}
+
+.name a:hover {
+	color: black;
+	text-decoration: none;
+}
+
 .name-label {
 	width: 60px;
 	height: 60px;
@@ -340,6 +351,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .about {
 	background-image: url(../img/typewriter.jpg);
+	background-size: cover;
 }
 
 /* Portfolio Wrap Section */
@@ -378,14 +390,18 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .portfolio {
-	background-image: url(../img/palmtrees.jpg);
+	background-image: url(../img/guitars.jpg);
+	background-size: cover;
 }
 
 /* Service Wrap */
 
+.skills-header {
+	margin: 80px;
+}
+
 #servicewrap {
 	display: block;
-	margin-top: 80px;
 	margin-bottom: 80px;
 }
 
@@ -397,7 +413,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .service {
 	text-align: center;
-	padding: 15%;
+	margin: 5%;
 }
 
 .service svg {
@@ -445,7 +461,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .contact {
-	background-image: url(../img/mailbox.jpg);
+	background-image: url(../img/train.jpg);
+	background-size: cover;
 }
 
 #contactwrap label {
@@ -493,6 +510,12 @@ h1, h2, h3, h4, h5, h6 {
 	right: 0;
 	position: relative;
 }
+
+.photo-wrapper {
+	box-shadow: 2px 2px 1px dimgray;
+	margin-bottom: 5px;
+}
+
 .project:hover .photo {
   opacity: 10;
   filter: alpha(opacity=4000);
