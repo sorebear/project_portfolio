@@ -67,7 +67,7 @@ textarea {
 html,
 body {
 	height: 100%;
-	width: 100%;
+	 width: 100%;
 }
 
 body {
@@ -397,7 +397,8 @@ h1, h2, h3, h4, h5, h6 {
 /* Service Wrap */
 
 .skills-header {
-	margin: 80px;
+	margin-top: 80px;
+	margin-bottom: 80px;
 }
 
 #servicewrap {
