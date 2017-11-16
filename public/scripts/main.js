@@ -1,5 +1,4 @@
 ;(function(){
-
 			// Menu settings
 			$('#menuToggle, .menu-close').on('click', function(){
 				$('#menuToggle').toggleClass('active');
@@ -7,7 +6,6 @@
 				$('#theMenu').toggleClass('menu-open');
 			});
 			$('form').on('submit', function(event) {
-				debugger;
 				event.preventDefault();
 				$('.form-control').val('');
 			})

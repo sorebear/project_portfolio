@@ -13,8 +13,8 @@
    Base Styles, Bootstrap Modifications & Fonts Import
    ========================================================================== */
 
-@import url(http://fonts.googleapis.com/css?family=Oswald:400,300,700);
-@import url(http://fonts.googleapis.com/css?family=Lato:400,700);
+@import url('http://fonts.googleapis.com/css?family=Oswald:400,300,700');
+@import url('http://fonts.googleapis.com/css?family=Lato:400,700');
 
 html,
 button,
@@ -46,7 +46,7 @@ textarea {
  * A better looking default horizontal rule
  */
 
- hr {
+hr {
     display: block;
     height: 1px;
     border: 0;
@@ -67,12 +67,12 @@ textarea {
 html,
 body {
 	height: 100%;
-	 width: 100%;
+	width: 100%;
 }
 
 body {
 	overflow-x: hidden;
-    font-family: "Lato" sans-serif;
+    font-family: 'Lato', sans-serif;
     font-weight: 400;
     font-size: 16px;
     color: #000;
@@ -86,9 +86,19 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: 300;
 }
 
+.section-title {
+	color: #f85c37;
+}
+
 /* ==========================================================================
    MENU CONFIGURATION
    ========================================================================== */
+
+#home h3 {
+	margin-top: 0;
+	color: black;
+	text-shadow: 1px 1px 1px white;
+}
 
 .menu {
 	position: fixed;
@@ -251,7 +261,8 @@ h1, h2, h3, h4, h5, h6 {
    ========================================================================== */
 
 #headerwrap {
-	background: url(img/forestvalley.jpg) no-repeat center top;
+	background-image: url(img/forestvalley.jpg);
+	/* background-position: top center; */
 	margin-top: 0px;
 	padding-top:120px;
 	text-align:center;
@@ -300,11 +311,11 @@ h1, h2, h3, h4, h5, h6 {
 .name a {
 	font-size: 24px;
 	margin: 5px;
-	color: grey;
+	color: black;
 }
 
 .name a:hover {
-	color: black;
+	color: #f85c37;
 	text-decoration: none;
 }
 
@@ -330,6 +341,7 @@ h1, h2, h3, h4, h5, h6 {
 	font-size: 40px;
 	line-height: 1.45;
 	font-weight: 300;
+	color: #f85c37;
 }
 
 /* Separator About - Parallax Section */
@@ -383,6 +395,10 @@ h1, h2, h3, h4, h5, h6 {
 
 #portfoliowrap i {
 	font-size: 50px;
+}
+
+#portfoliowrap a {
+	color: #f85c37;
 }
 
 .proc {
@@ -460,7 +476,11 @@ h1, h2, h3, h4, h5, h6 {
 	padding-bottom: 25px;
 }
 
-#contactwrap p, #contactwrap h1 {
+#contactwrap h1 {
+	margin-bottom: 20px;
+}
+
+#contactwrap p {
 	color: #f2f2f2;
 }
 
@@ -473,9 +493,25 @@ h1, h2, h3, h4, h5, h6 {
 	background-size: cover;
 }
 
-#contactwrap label {
-	color: #f2f2f2;
+#contactwrap input, #contactwrap textarea {
+	border: none;
+	border-radius: 0;
+	padding: 25px 20px;
+	margin-bottom: 1.5em;
+}
+
+#contactwrap textarea {
+	padding: 17.5px 20px;
+	resize: none;
+}
+
+#contactwrap button {
+	border: none;
+	border-radius: 0;
 	margin-top: 10px;
+	background-color: #f85c37;
+	color: white;
+	padding: 15px 30px;
 }
 
 
