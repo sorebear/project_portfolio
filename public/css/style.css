@@ -96,8 +96,8 @@ h1, h2, h3, h4, h5, h6 {
 
 #home h3 {
 	margin-top: 0;
-	color: black;
-	text-shadow: 1px 1px 1px white;
+	letter-spacing: 1.5;
+	color: #f85c37;
 }
 
 .menu {
@@ -261,13 +261,13 @@ h1, h2, h3, h4, h5, h6 {
    ========================================================================== */
 
 #headerwrap {
-	background-image: url(img/forestvalley.jpg);
+	background-image: url(img/camping.jpg);
 	/* background-position: top center; */
 	margin-top: 0px;
 	padding-top:120px;
 	text-align:center;
 	background-attachment: relative;
-	background-position: center center;
+	background-position: bottom center;
 	min-height: 700px;
 	width: 100%;
 	
